@@ -97,4 +97,106 @@ footer .copyright {
     bottom: 30px;
     z-index: 99;
 }
+*{
+    box-sizing: border-box;
+}
+.carousel-item{
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+}
+.c-item{
+    height: 900px;
+    }
+    .c-img{
+    height: 100%;
+    }
+    .carousel-caption{
+        position: absolute;
+        left:100px;
+        bottom: 150px;
+        text-align: start;
+    }
+    
+    .mb-4{
+    margin-bottom: 1.5rem !important;
+    }
+    .displaye-3{
+        font-size: calc(1.525rem + 3.3vw);
+  font-weight: 700;
+  line-height: 1.2;
+    }
+    .slideInDown {
+        animation-name: slideInDown;}
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;}
+    .h-1{
+        font-family: 'Bangers', cursive;
+        display: inline-block;
+        color: rgb(62, 7, 7);
+        padding: 5px;
+        background-color: rgb(255, 255, 255,0.5);
+    }
+    .p-1{
+        display: inline-block;
+       color: black;
+       background-color: rgb(255, 255, 255,0.5);
+        font-family: 'Belanosima', sans-serif;
+        font-family: 'Zilla Slab', serif;
+    }
+   
+    
+    .carousel-control-prev{
+        left: 0;
+    }
+    .carousel-control-prev, .carousel-control-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: .5;
+  transition-property: opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+    }
+   button, [type="button"], [type="reset"], [type="submit"] {
+        -webkit-appearance: button;
+          appearance: button;
+    }
+    button, select {
+        text-transform: none;
+    }
+    button{
+        margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(155, 28, 28);
+        border: 15px solid rgb(155, 28, 28);
+        border-radius: 50px;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: rgb(155, 28, 28);
+        border-color: rgb(155, 28, 28);
+      }
+     
+
+
+
+      
 
