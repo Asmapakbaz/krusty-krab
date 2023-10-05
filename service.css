@@ -138,8 +138,14 @@ div .card-img img {
   color: #ee9322;
 }
 
-.btn.bottom-footer:hover {
+.btn.bottom-footer{
   background-color: #ee9322;
+  color: white;
+}
+
+.btn.bottom-footer:hover {
+  background-color: white;
+  color: #ee9322;
 }
 
 a.btn-lg-square {

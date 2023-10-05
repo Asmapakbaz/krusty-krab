@@ -142,7 +142,9 @@ svg{
     background-color: #146c94;
     font-size: 20px;
 }
-
+.card{
+  overflow: hidden;
+}
 .card p{
     font-size: 20px;
 }

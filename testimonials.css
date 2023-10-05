@@ -219,3 +219,13 @@ footer .copyright {
     bottom: 30px;
     z-index: 99;
 }
+
+.btn.bottom-footer{
+    background-color: #ee9322;
+    color: white;
+  }
+  
+  .btn.bottom-footer:hover {
+    background-color: white;
+    color: #ee9322;
+  }

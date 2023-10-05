@@ -90,3 +90,32 @@ footer .copyright {
   text-decoration: none;
   font-weight: 500;
 }
+a.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  width: 48px;
+  height: 48px;
+  transition: 0.5s; 
+}
+
+a.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+.remove-shadow{
+  text-shadow: none;
+}
+.btn.bottom-footer{
+  background-color: #ee9322;
+  color: white;
+}
+.btn.bottom-footer:hover{
+    background-color: white;
+    color: #ee9322;
+}
