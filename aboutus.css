@@ -149,3 +149,10 @@ svg{
 .remove-shadow{
   text-shadow: none;
 }
+.btn {
+  border: 2px solid #ee9322;
+  color: #f6f1f1;
+  background-color: #ee9322;
+  transition: 0.4s;
+  font-weight: bold;
+}
