@@ -1,0 +1,947 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krusty Krab - Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <!-- spinner start -->
+      <!-- spinner (WTF) all these classes and for a tiny spinner that is hidden !!! -->
+      <div
+        id="spinner"
+        class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div class="spinner-grow text-primary" role="status"></div>
+      </div>
+      <!-- spinner end -->
+
+      <!-- top-bar start -->
+
+      <div
+        class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block"
+      >
+        <div class="row gx-0 align-items-center">
+          <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center me-2">
+              <p>
+                <span class="mx-1 material-symbols-outlined"> call </span>+676
+                7676767 7
+              </p>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-2">
+              <p>
+                <span class="mx-1 material-symbols-outlined"> mail </span
+                >KrustyKrab2@Seamail.com
+              </p>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-2">
+              <p>
+                <span class="material-symbols-outlined ps-1">
+                  mark_as_unread </span
+                >We are open all day everyday 24/7
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center">
+              <a href="www.facebook.com" class="text-white-50 ms-4"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="www.twitter.com" class="text-white-50 ms-4"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="www.linkedin.com" class="text-white-50 ms-4"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="www.instagram.com" class="text-white-50 ms-4"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- top-bar end -->
+
+      <!-- Navbar-start -->
+
+      <nav
+        class="navbar navbar-expand-lg sticky-top px-4 px-lg-5"
+        style="background: #146c94"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="./home.html">
+            <img
+              src="img\home\555-5550739_the-krusty-krab-krusty-krab-clipart.png"
+              alt="Krabby"
+              class="img-logo img-fluid me-3"
+            />
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="nav nav-tabs mx-auto rounded pe-4 py-3 py-lg-0">
+              <a href="./home.html" class="nav-item nav-link">Home</a>
+              <a href="./service.html" class="nav-item nav-link">Service</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                  >Get Closer</a
+                >
+                <div class="dropdown-menu bg-light border-1 m-1">
+                  <a href="./awards.html" class="dropdown-item">Awards</a>
+                  <hr class="dropdown-divider" />
+                  <a href="./join_us.html" class="dropdown-item">join us</a>
+                  <hr class="dropdown-divider" />
+                  <a href="./our_team.html" class="dropdown-item">our team</a>
+                  <hr class="dropdown-divider" />
+                  <a href="./testimonials.html" class="dropdown-item"
+                    >testimonials</a
+                  >
+                </div>
+              </div>
+              <a href="./aboutus.html" class="nav-item nav-link">About Us</a>
+              <a href="./contactus.html" class="nav-item nav-link"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Sea for yourself"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
+            </button>
+          </form>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Navbar End -->
+    </header>
+
+    <main>
+      <!-- start carousel -->
+      <div class="container-fluid p-0 mb-5 wow md" data-wow-delay="0.">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item c-item active">
+              <img
+                src="./img/home/تت.jpg"
+                class="d-block w-100 c-img"
+                alt="img"
+              />
+
+              <div class="carousel-caption">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <h1 class="mb-4 animated slideInDown h-1">
+                        Krusty Krab's Specials
+                      </h1>
+                      <p class="fs-5 p-1 mb-5 p-1 remove-shadow">
+                        Discover The Latest Krusty Krab specials...
+                      </p>
+                      <br />
+                      <a href="#" class="btn btn-primary py-3 px5">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item c-item">
+              <img
+                src="./img/home/seafood1.jpg "
+                class="d-block w-100 c-img"
+                alt="img"
+              />
+              <div class="carousel-caption">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <h1 class="mb-4 animated slideInDown h-1">
+                        Krusty Krab's Specials
+                      </h1>
+                      <p class="fs-5 p-1 mb-5 p-1 remove-shadow">
+                        Discover The Latest Krusty Krab specials...
+                      </p>
+                      <br />
+                      <a href="#" class="btn btn-primary py-3 px5">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item c-item">
+              <img
+                src="./img/home/vgfood.jpg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+
+              <div class="carousel-caption">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <h1 class="mb-4 animated slideInDown h-1">
+                        Krusty Krab's Specials
+                      </h1>
+                      <p class="fs-5 p-1 mb-5 p-1 remove-shadow">
+                        Discover The Latest Krusty Krab specials...
+                      </p>
+                      <br />
+                      <a href="#" class="btn btn-primary py-3 px5">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev "
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- end carousel -->
+      <!-- start card menu -->
+      <section class="container">
+        <div class="text-center mx-auto">
+          <h1 class="mb-5 remove-shadow">Our special menu</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center mb-5">
+                <div class="rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/download (2).jpeg"
+                    alt="food"
+                  />
+                </div>
+                <h3>Special hamburger</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Lettuce, pickled cucumber, tomato, hamburger, onion, sauce
+              </p>
+              <a class="btn px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center ms-n5 mb-5">
+                <div class="bg-info rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/Can You Guess The Movie From The Food_.png"
+                    alt="food"
+                  />
+                </div>
+                <h3>Omelette</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Tomatoes, onions, eggs, oil, spices, rosemary, mushroom
+              </p>
+              <a class="btn btn-light px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center ms-n5 mb-5">
+                <div class="bg-info rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/The Best Easy Ratatouille Recipe.jpeg"
+                    alt="food"
+                  />
+                </div>
+                <h3>Ratatouille</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Eggplant, tomato, zucchini, onion, tomato paste, spices
+              </p>
+              <a class="btn btn-light px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center ms-n5 mb-5">
+                <div class="bg-info rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/14.png"
+                    alt="food"
+                  />
+                </div>
+                <h3>Special breakfast</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Bacon, eggs, beans, spices, fruit, ham, vegetables
+              </p>
+              <a class="btn btn-light px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center ms-n5 mb-5">
+                <div class="bg-info rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/Free Vector _ Delicious comfort food concept.jpeg"
+                    alt="food"
+                  />
+                </div>
+                <h3>Soup</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Onions, tomatoes, celery, carrots, soup noodles, spices
+              </p>
+              <a class="btn btn-light px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="h-100 p-5 border-shadow rounded fix-img">
+              <div class="d-flex align-items-center ms-n5 mb-5">
+                <div class="bg-info rounded-end card-img me-4">
+                  <img
+                    class="img-fluid"
+                    src="./img/home/Download Spaghetti Watercolor Clipart AI Generated for free.png"
+                    alt="food"
+                  />
+                </div>
+                <h3>Spaghetti</h3>
+              </div>
+              <p class="mb-4 ps-5 remove-shadow">
+                Spaghetti, tomato, meat, spices, oil, onion, parmesan cheese
+              </p>
+              <a class="btn btn-light px-3 ms-5" href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end card menu -->
+      <!-- start register -->
+      <section class="container-fluid my-5 py-5 background-register">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <p class="h1 mb-5 text-white remove-shadow">
+                If you want to enjoy delicious food under the Pacific Ocean,
+                fill out this form as soon as possible.
+              </p>
+              <p class="mb-5 text-white remove-shadow">
+                Thank you for choosing [Restaurant Name] for your dining
+                experience. We will review your reservation request and confirm
+                it via email or phone within 24 hours. If you have any urgent
+                inquiries, please don't hesitate to contact us directly at
+                [Phone Number]. We look forward to welcoming you to our
+                restaurant and making your visit a delightful one.
+              </p>
+              <div class="rounded p-3 border-box-number">
+                <div class="d-flex align-items-center rounded p-2 number-box">
+                  <span class="material-symbols-outlined me-2">
+                    phone_in_talk
+                  </span>
+                  <h5>Phone Number: +676 7676767 7</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="rounded p-5 border-box-form">
+                <form action="">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <div class="form-floating mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="name"
+                        />
+                        <label for="floatingInput">Name</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="surname"
+                        />
+                        <label for="floatingInput">Surname</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating mb-3">
+                        <input
+                          type="date"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="reserve"
+                        />
+                        <label for="floatingInput">Reservation date</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating mb-3">
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Please enter the number"
+                        />
+                        <label for="floatingInput">Number of persons</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating mb-3">
+                        <textarea
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Hi,I'm..."
+                          style="height: 150px"
+                        ></textarea>
+                        <label for="floatingInput">please write to us</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary py- px-5" type="submit">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end register -->
+      <!-- start merch box -->
+      <section class="container">
+        <div class="text-center mx-auto">
+          <h1 class="mb-5 remove-shadow">Krusty Krab Merch</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="rounded cart-hover">
+              <img
+                class="img-fluid"
+                src="./img/home/photo_5816585153282162051_x.jpg"
+                alt="krab-merch"
+              />
+              <div class="text-center p-4">
+                <h5>Krusty cushion</h5>
+                <h5>$15</h5>
+              </div>
+              <div class="text-center bg-white p-4 text-cart-hover">
+                <h5>Krusty cushion</h5>
+                <h5>$15</h5>
+                <div class="d-flex justify-content-center">
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      local_shipping
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      add_card
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined"> sell </span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="rounded cart-hover">
+              <img
+                class="img-fluid"
+                src="./img/home/Claire's Nickelodeon™ SpongeBob SquarePants™ Mini Backpack - Yellow.jpeg"
+                alt="krab-merch"
+              />
+              <div class="text-center p-4">
+                <h5>Spongebob backpack</h5>
+                <h5>$20</h5>
+              </div>
+              <div class="text-center bg-white p-4 text-cart-hover">
+                <h5>Spongebob backpack</h5>
+                <h5>$20</h5>
+                <div class="d-flex justify-content-center">
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      local_shipping
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      add_card
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined"> sell </span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="rounded cart-hover">
+              <img
+                class="img-fluid"
+                src="./img/home/download (11).jpg"
+                alt="krab-merch"
+              />
+              <div class="text-center p-4">
+                <h5>Patrick doll</h5>
+                <h5>$10</h5>
+              </div>
+              <div class="text-center bg-white p-4 text-cart-hover">
+                <h5>Patrick doll</h5>
+                <h5>$10</h5>
+                <div class="d-flex justify-content-center">
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      local_shipping
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      add_card
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined"> sell </span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="rounded cart-hover">
+              <img
+                class="img-fluid"
+                src="./img/home/Normal Squidward Iphone 11 Pro Max Snap Case by GuyBergman.jpeg"
+                alt="krab-merch"
+              />
+              <div class="text-center p-4">
+                <h5>Squidward phone cover</h5>
+                <h5>$6</h5>
+              </div>
+              <div class="text-center bg-white p-4 text-cart-hover">
+                <h5>Squidward phone cover</h5>
+                <h5>$6</h5>
+                <div class="d-flex justify-content-center">
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      local_shipping
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined">
+                      add_card
+                    </span></a
+                  >
+                  <a class="icon-cart icon-background mx-1" href="#"
+                    ><span class="material-symbols-outlined"> sell </span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start merch box -->
+      <!-- comment section start -->
+  <section>
+    <div class="container-xxl py-5">
+      <div class="text-center mx-auto" style="max-width: 500px">
+        <h1 class="mb-5" style="font-weight: 700">Crab Comments</h1>
+      </div>
+
+      
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="container">
+              <div class="box one">
+                <img src="./img/home/dislike-17.png" alt="dislike" />
+              </div>
+              <div class="box two">
+                <img
+                  src="./img/home/download-the-png-files-here-boo-clipart-415_256.png"
+                  alt="Boo"
+                />
+              </div>
+              <div class="box three">
+                <img
+                  src="./img/home/download-the-png-files-here-boo-clipart-415_256.png"
+                  alt="Boo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- carousel start -->
+          <div class="col-lg-6">
+            <div class="container-fluid">
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="container">
+                      <div
+                        class="d-flex flex-column text-center remove"
+                        style="height: 300px"
+                      >
+                        <img
+                          src="./img/home/Gary_looking_up_stock_art.png"
+                          class="carousel-img rounded mx-auto mb-3"
+                          alt="gary"
+                        />
+                        <p class="remove-shadow">Meowww...Meow Meoww Meowwww. Meow.</p>
+                        <h1>Gary</h1>
+                        <p class="remove-shadow">sponge bob`s pet</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="container">
+                      <div
+                        class="d-flex flex-column text-center remove"
+                        style="height: 300px"
+                      >
+                        <img
+                          src="./img/home/Marlin.png"
+                          class="carousel-img rounded mx-auto mb-3"
+                          alt="sandy"
+                        />
+                        <p class="remove-shadow">
+                          the dishes are DIRTY. what do you mean by saying that
+                          we are under water and there is no need to wash them.
+                          PLEASE WASH THE DISHES.
+                        </p>
+                        <h1>Marlin</h1>
+                        <p class="remove-shadow">Nemo`s Dad</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div
+                        class="d-flex flex-column text-center remove"
+                        style="height: 300px"
+                      >
+                        <img
+                          src="./img/home/Mrs._Puff.svg.png"
+                          class="carousel-img rounded mx-auto mb-3"
+                          alt="mrs. puff"
+                        />
+                        <p class="remove-shadow">
+                          the food is good but I don`t recommend sponge bob as a
+                          motor courier.
+                        </p>
+                        <h1>Mrs. Puff</h1>
+                        <p class="remove-shadow">boating school instructor</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex gap-1 justify-content-center">
+                  <button
+                    class="btn button d-flex justify-content-center p-0"
+                    type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev"
+                    style="background-color: #EE9322;"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="btn button d-flex justify-content-center p-0"
+                    type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next"
+                    style="background-color: #EE9322;"
+                    
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel end -->
+          
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="container">
+              <div class="box one">
+                <img
+                  src="./img/home/download-the-png-files-here-boo-clipart-415_256.png"
+                  alt="Boo"
+                />
+              </div>
+              <div class="box two">
+                <img src="./img/home/dislike-17.png" alt="dislike" />
+              </div>
+              <div class="box three">
+                <img
+                  src="./img/home/download-the-png-files-here-boo-clipart-415_256.png"
+                  alt="Boo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- comment section end -->
+    </main>
+
+    <footer>
+      <!-- footer start -->
+      <div
+        class="container-fluid bg-primary footer mt-5 pt-5 wow fadeIn"
+        data-wow-delay="0.2s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+              <p>
+                The Krusty Krab 2 is a fast food restaurant located in Bikini
+                Bottom, Pacific Ocean, founded and owned by Eugene H. Krabs. It
+                is also the most popular and best known restaurant in Bikini
+                Bottom and one of the main locations of SpongeBob SquarePants.
+              </p>
+              <div class="d-flex pt-2">
+                <a href="" class="btn btn-square border me-1">
+                  <span class="material-symbols-outlined"> local_cafe </span>
+                </a>
+                <a href="" class="btn btn-square border me-1">
+                  <span class="material-symbols-outlined"> set_meal </span>
+                </a>
+                <a href="" class="btn btn-square border me-1">
+                  <span class="material-symbols-outlined"> storefront </span>
+                </a>
+                <a href="" class="btn btn-square border me-0">
+                  <span class="material-symbols-outlined"> phishing </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-center mb-4">We're Open 24/7</h5>
+              <p>
+                <span class="mx-1 material-symbols-outlined"> location_on </span
+                >Bikini Bottom, Pacific Ocean
+              </p>
+              <p>
+                <span class="mx-1 material-symbols-outlined"> call </span>+676
+                7676767 7
+              </p>
+              <p>
+                <span class="mx-1 material-symbols-outlined"> mail </span
+                >KrustyKrab2@Seamail.com
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="display-6 text-center mb-4">Created By:</h5>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-danger text-center">
+                  ASMA
+                </li>
+                <li class="list-group-item list-group-item-warning text-center">
+                  Maedeh
+                </li>
+                <li class="list-group-item list-group-item-info text-center">
+                  Zohreh
+                </li>
+                <li class="list-group-item list-group-item-dark text-center">
+                  Pouria
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="display-6 text-center mb-4">Your Only Choice</h5>
+              <p>
+                We believe our Food and services are unique and phenomenal all
+                over the Pacific ocean.<br />Don't belive us !! <br />
+                search for yourself here:
+              </p>
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  type="text"
+                  class="form-control bg-light w-100 py-3 ps-4 pe-5"
+                  placeholder="search & sea"
+                />
+                <button
+                  type="button"
+                  class="btn btn-warning py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Get out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-dark copyright">
+          <div class="container">
+            <div class="row">
+              <div class="cr col-md-3 text-center text-md-end mb-3 mb-md-0">
+                <a href="https://github.com/Asmapakbaz/krusty-krab.git">Group 4 - APS - Mehr 1402</a>
+              </div>
+              <div class="col-md-9 text-center text-md-end">
+                <p id="kingandQueens">Together We Conquer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer end -->
+    </footer>
+    <!-- additional scripts -->
+
+    <!-- back to top btn start -->
+    <a href="#" class="btn btn-lg btn-warning btn-lg-square back-to-top">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+    <!-- back to top btn end-->
+
+    <!-- <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>  -->
+
+    <!-- additional scripts -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
