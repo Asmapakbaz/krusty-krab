@@ -9,6 +9,15 @@
 + Zohreh Ehsani :supervillain_woman:
 + Pouria Ahmadi :mage_man:
 
+<sub>This is the Color Palette we used making our beautiful website:</sub> :art:
+
+  `#F6F1F1`
+  `#AFD3E2`
+  `#19A7CE`
+  `#146C94`
+  `#EE9322`
+
+
 ![Our website is a tribute to the one and only Krusty Krab, the legendary restaurant in Bikini Bottom](https://media-s3-us-east-1.ceros.com/editorial-content/images/2021/02/03/999bac063d6950a70a496d861d26985d/krabbyshack.png)
 
 ## About 🦀
