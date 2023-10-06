@@ -99,6 +99,11 @@ a.btn-lg-square {
   width: 48px;
   height: 48px;
   transition: 0.5s; 
+  color: white;
+}
+a.btn-lg-square:hover{
+  color: #ee9322;
+  background-color: white;
 }
 
 a.back-to-top {
@@ -118,4 +123,15 @@ a.back-to-top {
 .btn.bottom-footer:hover{
     background-color: white;
     color: #ee9322;
+}
+
+.btn.button-style{
+  background-color: #ee9322;
+  color: white;
+  font-weight: bold;
+}
+
+.btn.button-style:hover{
+  background-color: white;
+  color: #ee9322;
 }
